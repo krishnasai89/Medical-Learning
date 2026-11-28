@@ -43,7 +43,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "vicks-vaporub",
     name: "Vicks VapoRub / vicks-babyrub",
-    href: "/medical/vicks",
+    href: "/conditions/cold/vicks",
     brandExample:
       "Vicks VapoRub (Menthol 2.82%, Camphor 5.26%, Eucalyptus Oil 1.33%)",
     classType: "Topical Counterirritant / Rub",
@@ -60,7 +60,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "zandu-balm",
     name: "Zandu Balm / Tiger Balm (Classic / Ultra Power)",
-    href: "/medical/zandu-balm",
+    href: "/conditions/cold/zandu-balm",
     brandExample:
       "Zandu Balm (Mentha Satva 12–17%, Gaultheria/Wintergreen Oil 12–25%, Eucalyptus 0.8%)",
     classType: "Topical Counterirritant / Rub",
@@ -78,7 +78,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "vicks-inhaler",
     name: "Vicks Inhaler Nasal Stick",
-    href: "/medical/vicks-inhaler",
+    href: "/conditions/cold/vicks-inhaler",
     brandExample:
       "Vicks Inhaler (Menthol 41.54%, Camphor 41.54%, Siberian Pine Needle Oil 4.61%)",
     classType: "Nasal Inhalant",
@@ -96,7 +96,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "chlorpheniramine",
     name: "Chlorpheniramine (Chlorphenamine Maleate)",
-    href: "/medical/chlorpheniramine",
+    href: "/conditions/cold/chlorpheniramine",
     brandExample: "Piriton, Zeet, Cadistin",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -111,7 +111,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "diphenhydramine",
     name: "Diphenhydramine HCl",
-    href: "/medical/diphenhydramine",
+    href: "/conditions/cold/diphenhydramine",
     brandExample: "Benadryl, ZzzQuil",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -126,7 +126,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "promethazine",
     name: "Promethazine HCl",
-    href: "/medical/promethazine",
+    href: "/conditions/cold/promethazine",
     brandExample: "Phenergan, Avomine",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -141,7 +141,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "pheniramine",
     name: "Pheniramine Maleate",
-    href: "/medical/pheniramine",
+    href: "/conditions/cold/pheniramine",
     brandExample: "Avil",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -156,7 +156,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "cyproheptadine",
     name: "Cyproheptadine HCl",
-    href: "/medical/cyproheptadine",
+    href: "/conditions/cold/cyproheptadine",
     brandExample: "Periactin, Ciplactin",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -171,7 +171,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "hydroxyzine",
     name: "Hydroxyzine Hydrochloride",
-    href: "/medical/hydroxyzine",
+    href: "/conditions/cold/hydroxyzine",
     brandExample: "Atarax 10mg / 25mg",
     classType: "1st-Gen Antihistamine",
     appliesTo: ["allergy"],
@@ -188,7 +188,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "cetirizine",
     name: "Cetirizine HCl",
-    href: "/medical/cetirizine",
+    href: "/conditions/cold/cetirizine",
     brandExample: "Zyrtec, Cetzine, Alerid",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -203,7 +203,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "levocetirizine",
     name: "Levocetirizine Dihydrochloride",
-    href: "/medical/levocetirizine",
+    href: "/conditions/cold/levocetirizine",
     brandExample: "Xyzal, Levocet, 1-AL",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -218,7 +218,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "fexofenadine",
     name: "Fexofenadine HCl",
-    href: "/medical/fexofenadine",
+    href: "/conditions/cold/fexofenadine",
     brandExample: "Allegra 120mg / 180mg",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -233,7 +233,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "loratadine",
     name: "Loratadine",
-    href: "/medical/loratadine",
+    href: "/conditions/cold/loratadine",
     brandExample: "Claritin, Lorfast",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -248,7 +248,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "desloratadine",
     name: "Desloratadine",
-    href: "/medical/desloratadine",
+    href: "/conditions/cold/desloratadine",
     brandExample: "Clarinex, Deslor",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -263,7 +263,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "bilastine",
     name: "Bilastine",
-    href: "/medical/bilastine",
+    href: "/conditions/cold/bilastine",
     brandExample: "Bilaxten, Bilasure",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -278,7 +278,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "rupatadine",
     name: "Rupatadine Fumarate",
-    href: "/medical/rupatadine",
+    href: "/conditions/cold/rupatadine",
     brandExample: "Rupafin, Smarti",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -293,7 +293,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "ebastine",
     name: "Ebastine",
-    href: "/medical/ebastine",
+    href: "/conditions/cold/ebastine",
     brandExample: "Ebast, Kestine",
     classType: "2nd-Gen Antihistamine",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -310,7 +310,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "montelukast",
     name: "Montelukast Sodium",
-    href: "/medical/montelukast",
+    href: "/conditions/cold/montelukast",
     brandExample: "Singulair, Montair 10mg",
     classType: "Leukotriene Antagonist",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -327,7 +327,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "phenylephrine",
     name: "Phenylephrine HCl (Oral)",
-    href: "/medical/phenylephrine",
+    href: "/conditions/cold/phenylephrine",
     brandExample: "Sudafed PE, Sinarest component",
     classType: "Oral Decongestant",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -342,7 +342,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "pseudoephedrine",
     name: "Pseudoephedrine HCl",
-    href: "/medical/pseudoephedrine",
+    href: "/conditions/cold/pseudoephedrine",
     brandExample: "Sudafed (Behind-the-counter)",
     classType: "Oral Decongestant",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -359,7 +359,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "oxymetazoline",
     name: "Oxymetazoline HCl (0.05%)",
-    href: "/medical/oxymetazoline",
+    href: "/conditions/cold/oxymetazoline",
     brandExample: "Afrin, Otrivin Oxy, Vicks Sinex",
     classType: "Topical Decongestant",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -374,7 +374,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "xylometazoline",
     name: "Xylometazoline HCl (0.1% Adult / 0.05% Peds)",
-    href: "/medical/xylometazoline",
+    href: "/conditions/cold/xylometazoline",
     brandExample: "Otrivin, Decon",
     classType: "Topical Decongestant",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -389,7 +389,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "naphazoline",
     name: "Naphazoline HCl (0.05% – 0.1%)",
-    href: "/medical/naphazoline",
+    href: "/conditions/cold/naphazoline",
     brandExample: "Privine, Naphcon",
     classType: "Topical Decongestant",
     appliesTo: ["rhinorrhea", "sneezing", "allergy"],
@@ -406,7 +406,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "fluticasone-furoate",
     name: "Fluticasone Furoate Nasal Spray",
-    href: "/medical/fluticasone-furoate",
+    href: "/conditions/cold/fluticasone-furoate",
     brandExample: "Avamys, Flomist (27.5 mcg/spray), Spiroflut",
     classType: "Intranasal Corticosteroid / Combo",
     appliesTo: ["allergy"],
@@ -422,7 +422,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "azelastine-fluticasone",
     name: "Azelastine HCl + Fluticasone Propionate",
-    href: "/medical/azelastine",
+    href: "/conditions/cold/azelastine",
     brandExample: "Dymista, Duonase (137 mcg / 50 mcg)",
     classType: "Intranasal Corticosteroid / Combo",
     appliesTo: ["allergy"],
@@ -439,7 +439,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "sodium-chloride-spray",
     name: "Sodium Chloride Nasal Spray IP (Isotonic / Hypertonic 0.9% - 2.3%)",
-    href: "/medical/sodium-chloride-spray",
+    href: "/conditions/cold/sodium-chloride-spray",
     brandExample: "Nasoclear",
     classType: "Nasal Saline",
     appliesTo: ["rhinorrhea", "sneezing"],
@@ -456,7 +456,7 @@ export const COLD_MEDICATIONS: ColdMedication[] = [
   {
     id: "lactobacillus-paracasei-fermentum",
     name: "Lactobacillus paracasei & Lactobacillus fermentum",
-    href: "/medical/allerbio",
+    href: "/conditions/cold/allerbio",
     brandExample: "Allerbio (LP-33 / GMNL-133 & GM-090 Probiotic Strains)",
     classType: "Immunomodulatory Probiotic",
     appliesTo: ["allergy"],
