@@ -779,7 +779,7 @@ export default function FeverPage() {
                       1st Line Antipyretic
                     </span>
                     <h3 className="text-lg font-bold text-white mt-1.5 group-hover:text-teal-200 transition-colors">
-                      <Link href="/medical/paracetamol">
+                      <Link href="/conditions/fever/paracetamol">
                         Paracetamol (Acetaminophen)
                       </Link>
                     </h3>
@@ -869,7 +869,7 @@ export default function FeverPage() {
                       NSAID &bull; Antipyretic + Anti-Inflammatory
                     </span>
                     <h3 className="text-lg font-bold text-white mt-1.5 group-hover:text-amber-200 transition-colors">
-                      <Link href="/medical/ibuprofen">Ibuprofen</Link>
+                      <Link href="/conditions/fever/ibuprofen">Ibuprofen</Link>
                     </h3>
                     <span className="text-xs text-slate-400 block font-mono">
                       Propionic Acid Derivative
@@ -958,7 +958,7 @@ export default function FeverPage() {
                       Irreversible Salicylate
                     </span>
                     <h3 className="text-lg font-bold text-white mt-1.5 group-hover:text-rose-200 transition-colors">
-                      <Link href="/medical/aspirin">
+                      <Link href="/conditions/fever/aspirin">
                         Aspirin (Acetylsalicylic Acid)
                       </Link>
                     </h3>
@@ -1049,7 +1049,7 @@ export default function FeverPage() {
                       Amide Local Anesthetic &bull; Class Ib
                     </span>
                     <h3 className="text-lg font-bold text-white mt-1.5 group-hover:text-cyan-200 transition-colors">
-                      <Link href="/medical/lignocaine">
+                      <Link href="/conditions/fever/lignocaine">
                         Lignocaine (Lidocaine HCl)
                       </Link>
                     </h3>
